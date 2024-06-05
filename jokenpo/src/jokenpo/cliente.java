@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class cliente {
     private static final String SERVER_ADDRESS = "localhost";
-    private static final int PORT = 7778;
+    private static final int PORT = 7777;
 
     public static void main(String[] args) {
         try (Socket socket = new Socket(SERVER_ADDRESS, PORT);
